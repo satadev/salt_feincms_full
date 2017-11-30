@@ -1,0 +1,703 @@
+[
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "page.page",
+    "pk": 1,
+    "fields": {
+        "active": true,
+        "title": "home",
+        "slug": "home",
+        "parent": null,
+        "in_navigation": false,
+        "override_url": "/",
+        "redirect_to": "",
+        "_cached_url": "/",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 1,
+        "level": 0,
+        "creation_date": "2017-05-05T18:37:50.988Z",
+        "modification_date": "2017-05-10T03:17:24.529Z",
+        "language": "en",
+        "translation_of": null,
+        "navigation_extension": null,
+        "excerpt": "",
+        "meta_keywords": "meta keywords",
+        "meta_description": "meta description",
+        "_content_title": "",
+        "_page_title": "",
+        "template_key": "home"
+    }
+},
+{
+    "model": "page.page",
+    "pk": 2,
+    "fields": {
+        "active": true,
+        "title": "contact",
+        "slug": "contact",
+        "parent": null,
+        "in_navigation": true,
+        "override_url": "",
+        "redirect_to": "",
+        "_cached_url": "/contact/",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 6,
+        "level": 0,
+        "creation_date": "2017-05-05T18:45:47.548Z",
+        "modification_date": "2017-05-05T18:57:17.638Z",
+        "language": "en",
+        "translation_of": null,
+        "navigation_extension": null,
+        "excerpt": "",
+        "meta_keywords": "",
+        "meta_description": "",
+        "_content_title": "",
+        "_page_title": "",
+        "template_key": "1col"
+    }
+},
+{
+    "model": "page.page",
+    "pk": 3,
+    "fields": {
+        "active": true,
+        "title": "about",
+        "slug": "about",
+        "parent": null,
+        "in_navigation": true,
+        "override_url": "",
+        "redirect_to": "",
+        "_cached_url": "/about/",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 2,
+        "level": 0,
+        "creation_date": "2017-05-05T18:46:31.643Z",
+        "modification_date": "2017-05-06T21:00:13.838Z",
+        "language": "en",
+        "translation_of": null,
+        "navigation_extension": null,
+        "excerpt": "",
+        "meta_keywords": "",
+        "meta_description": "",
+        "_content_title": "",
+        "_page_title": "",
+        "template_key": "2col"
+    }
+},
+{
+    "model": "page.page",
+    "pk": 4,
+    "fields": {
+        "active": true,
+        "title": "gallery",
+        "slug": "gallery",
+        "parent": null,
+        "in_navigation": true,
+        "override_url": "",
+        "redirect_to": "",
+        "_cached_url": "/gallery/",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 5,
+        "level": 0,
+        "creation_date": "2017-05-05T18:57:12.716Z",
+        "modification_date": "2017-05-06T20:51:48.099Z",
+        "language": "en",
+        "translation_of": null,
+        "navigation_extension": null,
+        "excerpt": "",
+        "meta_keywords": "",
+        "meta_description": "",
+        "_content_title": "",
+        "_page_title": "",
+        "template_key": "1col"
+    }
+},
+{
+    "model": "page.page",
+    "pk": 5,
+    "fields": {
+        "active": true,
+        "title": "services",
+        "slug": "services",
+        "parent": null,
+        "in_navigation": true,
+        "override_url": "",
+        "redirect_to": "",
+        "_cached_url": "/services/",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 3,
+        "level": 0,
+        "creation_date": "2017-05-05T21:41:17.347Z",
+        "modification_date": "2017-05-10T22:27:20.981Z",
+        "language": "en",
+        "translation_of": null,
+        "navigation_extension": null,
+        "excerpt": "",
+        "meta_keywords": "",
+        "meta_description": "",
+        "_content_title": "",
+        "_page_title": "",
+        "template_key": "1col"
+    }
+},
+{
+    "model": "page.page",
+    "pk": 6,
+    "fields": {
+        "active": true,
+        "title": "news",
+        "slug": "news",
+        "parent": null,
+        "in_navigation": true,
+        "override_url": "",
+        "redirect_to": "",
+        "_cached_url": "/news/",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 4,
+        "level": 0,
+        "creation_date": "2017-05-10T21:51:02.022Z",
+        "modification_date": "2017-05-10T22:27:21.072Z",
+        "language": "en",
+        "translation_of": null,
+        "navigation_extension": null,
+        "excerpt": "",
+        "meta_keywords": "",
+        "meta_description": "",
+        "_content_title": "",
+        "_page_title": "",
+        "template_key": "2col"
+    }
+},
+{
+    "model": "page.page",
+    "pk": 7,
+    "fields": {
+        "active": true,
+        "title": "search",
+        "slug": "search",
+        "parent": null,
+        "in_navigation": true,
+        "override_url": "",
+        "redirect_to": "",
+        "_cached_url": "/search/",
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 7,
+        "level": 0,
+        "creation_date": "2017-06-09T04:11:20.451Z",
+        "modification_date": "2017-06-09T06:57:25.870Z",
+        "language": "en",
+        "translation_of": null,
+        "navigation_extension": null,
+        "excerpt": "",
+        "meta_keywords": "",
+        "meta_description": "",
+        "_content_title": "",
+        "_page_title": "",
+        "template_key": "1col"
+    }
+},
+{
+    "model": "page.richtextcontent",
+    "pk": 1,
+    "fields": {
+        "parent": 1,
+        "region": "main",
+        "ordering": 0,
+        "text": "<p>&nbsp;The King inquired: Sanjaya, please now tell me, in details, what did my people (the Kauravas) and the Pandavas do in the battlefield before the war started? (1.01)</p>\r\n<p>Sanjaya said: O King, After seeing the battle formation of the Pandava&rsquo;s army, your son approached his guru and spoke these words: (1.02)</p>\r\n<p>O Master, behold this mighty army of the Pandavas, arranged in battle formation by your other talented disciple! There are many great warriors, valiant men, heroes, and mighty archers. (1.03-06)</p>\r\n<p><strong>INTRODUCTION OF THE ARMY COMMANDERS</strong></p>\r\n<p>Also there are many heroes on my side who have risked their lives for me. I shall name a few distinguished commanders of my army for your information. He named all the officers of his army and said: They are armed with various weapons and are skilled in warfare. (1.07-09)</p>\r\n<p>The army protecting our commander-in-chief is insufficient, whereas my archrival on the other side is well protected. Therefore all of you, occupying your respective positions, protect our commander-in-chief. (1.10-11)</p>\r\n<p><strong>WAR STARTS WITH THE BLOWING OF CONCH SHELLS</strong></p>\r\n<p>The mighty commander-in-chief and the eldest man of the dynasty roared as a lion and blew his conch loudly, bringing joy to your son. (1.12)</p>\r\n<p>Soon after that; conches, kettledrums, cymbals, drums, and trumpets were sounded together. The commotion was tremendous. (1.13)</p>\r\n<p>After that, Lord Krishna and Arjuna, seated in a grand chariot yoked with white horses, blew their celestial conches. (1.14)</p>\r\n<p>Krishna blew His conch; then Arjuna and all other commanders of various divisions of the army of Pandavas blew their respective conches. The tumultuous uproar, resounding through the earth and sky, tore the hearts of your sons. (1.15-19)</p>"
+    }
+},
+{
+    "model": "page.richtextcontent",
+    "pk": 2,
+    "fields": {
+        "parent": 3,
+        "region": "main",
+        "ordering": 0,
+        "text": "<p><strong>ARJUNA WANTS TO INSPECT THE ARMY AGAINST WHOM HE IS ABOUT TO FIGHT</strong></p>\r\n<p>Seeing your sons standing and the war about to begin with the hurling of weapons; Arjuna, took up his bow and spoke these words to Lord Krishna: O Lord, please stop my chariot be&shy;tween the two armies until I behold those who stand here eager for the bat&shy;tle and with whom I must engage in this act of war. (1.20-22)</p>\r\n<p>I wish to see those who are willing to serve and appease the evil-minded Kauravas by assembling here to fight the battle. (1.23)</p>\r\n<p>Sanjaya said: O King, Lord Krishna, as requested by Arjuna, placed the best of all the chariots in the midst of the two armies facing Arjuna&rsquo;s grandfather, his guru and all other Kings, and said to Arjuna: Behold these assembled soldiers! (1.24-25)</p>\r\n<p>Arjuna saw his uncles, grandfathers, teachers, maternal uncles, brothers, sons, grandsons, and other comrades in the army. (1.26)</p>"
+    }
+},
+{
+    "model": "page.richtextcontent",
+    "pk": 3,
+    "fields": {
+        "parent": 2,
+        "region": "main",
+        "ordering": 0,
+        "text": "<p>You may contact us using the form below.&nbsp; We'll give you a link back as soon as possible.&nbsp; Thank you!</p>"
+    }
+},
+{
+    "model": "page.richtextcontent",
+    "pk": 4,
+    "fields": {
+        "parent": 5,
+        "region": "main",
+        "ordering": 1,
+        "text": "<p><strong>ARJUNA&rsquo;S DILEMMA</strong></p>\r\n<p>After seeing fathers-in-law, companions, and all his kinsmen standing in the ranks of the two armies, Arjuna was overcome with great compassion and sorrowfully spoke these words: O Krishna, seeing my kinsmen standing with a desire to fight, my limbs fail and my mouth becomes dry. My body quivers and my hairs stand on end. (1.27-29)</p>\r\n<p>The bow slips from my hand and my skin intensely burns. My head turns, I am unable to stand steady, and O Krishna, I see bad omens. I see no use of killing my kinsmen in battle. (1.30-31)</p>\r\n<p>I desire neither victory nor pleasure nor kingdom, O Krishna. What is the use of the kingdom or enjoyment, or even life, O Krishna; because all those&nbsp;&ndash; for whom we desire kingdom, enjoyments, and pleasures&nbsp;&ndash; are standing here for the battle, giving up their lives? (1.32-33)</p>\r\n<p>I do not wish to kill my teachers, uncles, sons, grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law, and other relatives who are about to kill us, even for the sov&shy;ereignty of the three worlds, let alone for this earthly kingdom, O Krishna. (1.34-35)</p>\r\n<p>O Lord Krishna, what pleasure shall we find in killing our cousin brothers? Upon killing these felons, we shall incur only sin. (1.36)</p>\r\n<p>Therefore, we should not kill our cousin brothers. How can we be happy after killing our relatives, O Krishna? (1.37)</p>\r\n<p>Though they are blinded by greed and do not see evil in the destruction of the family or sin in being treacherous to friends, why we, who clearly see evil in the destruction of the family, should not think about turning away from this sin, O Krishna? (1.38-39)</p>"
+    }
+},
+{
+    "model": "page.richtextcontent",
+    "pk": 5,
+    "fields": {
+        "parent": 5,
+        "region": "main",
+        "ordering": 3,
+        "text": "<p><strong>ARJUNA&rsquo;S DILEMMA</strong></p>\r\n<p>After seeing fathers-in-law, companions, and all his kinsmen standing in the ranks of the two armies, Arjuna was overcome with great compassion and sorrowfully spoke these words: O Krishna, seeing my kinsmen standing with a desire to fight, my limbs fail and my mouth becomes dry. My body quivers and my hairs stand on end. (1.27-29)</p>\r\n<p>The bow slips from my hand and my skin intensely burns. My head turns, I am unable to stand steady, and O Krishna, I see bad omens. I see no use of killing my kinsmen in battle. (1.30-31)</p>\r\n<p>I desire neither victory nor pleasure nor kingdom, O Krishna. What is the use of the kingdom or enjoyment, or even life, O Krishna; because all those&nbsp;&ndash; for whom we desire kingdom, enjoyments, and pleasures&nbsp;&ndash; are standing here for the battle, giving up their lives? (1.32-33)</p>\r\n<p>I do not wish to kill my teachers, uncles, sons, grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law, and other relatives who are about to kill us, even for the sov&shy;ereignty of the three worlds, let alone for this earthly kingdom, O Krishna. (1.34-35)</p>\r\n<p>O Lord Krishna, what pleasure shall we find in killing our cousin brothers? Upon killing these felons, we shall incur only sin. (1.36)</p>\r\n<p>Therefore, we should not kill our cousin brothers. How can we be happy after killing our relatives, O Krishna? (1.37)</p>\r\n<p>Though they are blinded by greed and do not see evil in the destruction of the family or sin in being treacherous to friends, why we, who clearly see evil in the destruction of the family, should not think about turning away from this sin, O Krishna? (1.38-39)</p>"
+    }
+},
+{
+    "model": "page.richtextcontent",
+    "pk": 6,
+    "fields": {
+        "parent": 1,
+        "region": "main",
+        "ordering": 2,
+        "text": "<p>&nbsp;<strong>WAR STARTS WITH THE BLOWING OF CONCH SHELLS</strong></p>\r\n<p>The mighty commander-in-chief and the eldest man of the dynasty roared as a lion and blew his conch loudly, bringing joy to your son. (1.12)</p>\r\n<p>Soon after that; conches, kettledrums, cymbals, drums, and trumpets were sounded together. The commotion was tremendous. (1.13)</p>\r\n<p>After that, Lord Krishna and Arjuna, seated in a grand chariot yoked with white horses, blew their celestial conches. (1.14)</p>\r\n<p>Krishna blew His conch; then Arjuna and all other commanders of various divisions of the army of Pandavas blew their respective conches. The tumultuous uproar, resounding through the earth and sky, tore the hearts of your sons. (1.15-19)</p>"
+    }
+},
+{
+    "model": "page.mediafilecontent",
+    "pk": 2,
+    "fields": {
+        "mediafile": 3,
+        "parent": 3,
+        "region": "sidebar",
+        "ordering": 0,
+        "type": "sidebar"
+    }
+},
+{
+    "model": "page.mediafilecontent",
+    "pk": 4,
+    "fields": {
+        "mediafile": 5,
+        "parent": 5,
+        "region": "main",
+        "ordering": 0,
+        "type": "left"
+    }
+},
+{
+    "model": "page.mediafilecontent",
+    "pk": 5,
+    "fields": {
+        "mediafile": 2,
+        "parent": 5,
+        "region": "main",
+        "ordering": 2,
+        "type": "right"
+    }
+},
+{
+    "model": "page.mediafilecontent",
+    "pk": 6,
+    "fields": {
+        "mediafile": 4,
+        "parent": 1,
+        "region": "main",
+        "ordering": 1,
+        "type": "default"
+    }
+},
+{
+    "model": "page.contactformcontent",
+    "pk": 1,
+    "fields": {
+        "email": "admin@satadev.com",
+        "subject": "Contact Form Message",
+        "parent": 2,
+        "region": "main",
+        "ordering": 1
+    }
+},
+{
+    "model": "page.gallerycontent",
+    "pk": 1,
+    "fields": {
+        "gallery": 1,
+        "parent": 4,
+        "region": "main",
+        "ordering": 0,
+        "type": "p.classiclm_0"
+    }
+},
+{
+    "model": "page.applicationcontent",
+    "pk": 1,
+    "fields": {
+        "parameters": "",
+        "parent": 6,
+        "region": "main",
+        "ordering": 0,
+        "urlconf_path": "elephantblog.urls"
+    }
+},
+{
+    "model": "page.applicationcontent",
+    "pk": 2,
+    "fields": {
+        "parameters": "",
+        "parent": 7,
+        "region": "main",
+        "ordering": 1,
+        "urlconf_path": "haystack.urls"
+    }
+},
+{
+    "model": "medialibrary.mediafile",
+    "pk": 2,
+    "fields": {
+        "file": "medialibrary/2017/05/never_knows_best____by_vashperado-d4aimt3_wWpX1rA.jpg",
+        "type": "image",
+        "created": "2017-05-05T20:24:13.843Z",
+        "copyright": "",
+        "file_size": 99306,
+        "categories": []
+    }
+},
+{
+    "model": "medialibrary.mediafile",
+    "pk": 3,
+    "fields": {
+        "file": "medialibrary/2017/05/_r_e___s_e_t__by_vashperado-d911hjq.jpg",
+        "type": "image",
+        "created": "2017-05-05T21:29:19.037Z",
+        "copyright": "",
+        "file_size": 188114,
+        "categories": []
+    }
+},
+{
+    "model": "medialibrary.mediafile",
+    "pk": 4,
+    "fields": {
+        "file": "medialibrary/2017/05/wallpaper-360384.jpg",
+        "type": "image",
+        "created": "2017-05-05T21:30:55.402Z",
+        "copyright": "",
+        "file_size": 629278,
+        "categories": []
+    }
+},
+{
+    "model": "medialibrary.mediafile",
+    "pk": 5,
+    "fields": {
+        "file": "medialibrary/2017/05/samus_90_minutes_by_kah_reload-d2y8p3r_2.jpg",
+        "type": "image",
+        "created": "2017-05-06T20:53:36.872Z",
+        "copyright": "",
+        "file_size": 274473,
+        "categories": []
+    }
+},
+{
+    "model": "medialibrary.mediafile",
+    "pk": 15,
+    "fields": {
+        "file": "medialibrary/2017/06/ChadKumada-4480230_450_337.jpg",
+        "type": "image",
+        "created": "2017-06-06T21:25:50.518Z",
+        "copyright": "",
+        "file_size": 30920,
+        "categories": []
+    }
+},
+{
+    "model": "medialibrary.mediafile",
+    "pk": 16,
+    "fields": {
+        "file": "medialibrary/2017/06/Faye41.png",
+        "type": "image",
+        "created": "2017-06-06T22:09:46.960Z",
+        "copyright": "",
+        "file_size": 480305,
+        "categories": []
+    }
+},
+{
+    "model": "gallery.gallery",
+    "pk": 1,
+    "fields": {
+        "title": "Default"
+    }
+},
+{
+    "model": "gallery.gallerymediafile",
+    "pk": 3,
+    "fields": {
+        "gallery": 1,
+        "mediafile": 2,
+        "ordering": 9999
+    }
+},
+{
+    "model": "gallery.gallerymediafile",
+    "pk": 4,
+    "fields": {
+        "gallery": 1,
+        "mediafile": 3,
+        "ordering": 9999
+    }
+},
+{
+    "model": "gallery.gallerymediafile",
+    "pk": 5,
+    "fields": {
+        "gallery": 1,
+        "mediafile": 4,
+        "ordering": 9999
+    }
+},
+{
+    "model": "gallery.gallerymediafile",
+    "pk": 6,
+    "fields": {
+        "gallery": 1,
+        "mediafile": 5,
+        "ordering": 9999
+    }
+},
+{
+    "model": "flatblocks.flatblock",
+    "pk": 1,
+    "fields": {
+        "slug": "footer_copyright",
+        "header": "",
+        "content": "<p class=\"text-muted pull-left\">&copy; 2017 example.com.  All Rights Reserved.</p>"
+    }
+},
+{
+    "model": "flatblocks.flatblock",
+    "pk": 2,
+    "fields": {
+        "slug": "footer_social",
+        "header": "",
+        "content": "<p class=\"text-muted pull-right\">\r\n  <a href=\"#\" title=\"\"><i class=\"fa fa-facebook\"></i></a>\r\n  <a href=\"#\" title=\"\"><i class=\"fa fa-soundcloud\"></i></a>\r\n</p>"
+    }
+},
+{
+    "model": "analytics.googleanalytics",
+    "pk": 1,
+    "fields": {
+        "site": 1,
+        "web_property_id": "1234567"
+    }
+},
+{
+    "model": "elephantblog.category",
+    "pk": 2,
+    "fields": {
+        "ordering": 1
+    }
+},
+{
+    "model": "elephantblog.category",
+    "pk": 3,
+    "fields": {
+        "ordering": 0
+    }
+},
+{
+    "model": "elephantblog.categorytranslation",
+    "pk": 2,
+    "fields": {
+        "parent": 2,
+        "language_code": "en",
+        "title": "General",
+        "slug": "general",
+        "description": ""
+    }
+},
+{
+    "model": "elephantblog.categorytranslation",
+    "pk": 3,
+    "fields": {
+        "parent": 3,
+        "language_code": "en",
+        "title": "Announcements",
+        "slug": "announcements",
+        "description": ""
+    }
+},
+{
+    "model": "elephantblog.richtextcontent",
+    "pk": 1,
+    "fields": {
+        "parent": 1,
+        "region": "main",
+        "ordering": 0,
+        "text": "<p>Among all scriptures the Mahabharata is the essence. Within the Mahabharata, the thousand names of Visnu known as Visnu Sahasranama in the Anusasanika Parva and Srimad Bhagavad-Gita in the Bhishma Parva are its essence. Knowledge of these surely releases one from the pangs of material existence consisting of the endless cycle of birth and death and gives one entry to the spiritual platform. There is no scripture in all of the material worlds that can compare with the 100,000 verses of Mahabharata; so how can there be anything that can even remotely be compared to Srimad Bhagavad-Gita and Visnu Sahasranama. At the request of Krishna Dvaipayana Vyasa, Brahma, the demigods and the rsis, the Mahabharata known as the Bharata in earlier antiquity and the Vedas were weighed on 2 scales the Bharata due to its importance and signifigance weighed heavier and thus came to be known from that time onwards as Mahabharata. Those who can comprehend its meanings are relieved of all karmic reactions in material existence.</p>"
+    }
+},
+{
+    "model": "elephantblog.richtextcontent",
+    "pk": 2,
+    "fields": {
+        "parent": 2,
+        "region": "main",
+        "ordering": 1,
+        "text": "<p>Among all scriptures the Mahabharata is the essence. Within the Mahabharata, the thousand names of Visnu known as Visnu Sahasranama in the Anusasanika Parva and Srimad Bhagavad-Gita in the Bhishma Parva are its essence. Knowledge of these surely releases one from the pangs of material existence consisting of the endless cycle of birth and death and gives one entry to the spiritual platform. There is no scripture in all of the material worlds that can compare with the 100,000 verses of Mahabharata; so how can there be anything that can even remotely be compared to Srimad Bhagavad-Gita and Visnu Sahasranama. At the request of Krishna Dvaipayana Vyasa, Brahma, the demigods and the rsis, the Mahabharata known as the Bharata in earlier antiquity and the Vedas were weighed on 2 scales the Bharata due to its importance and signifigance weighed heavier and thus came to be known from that time onwards as Mahabharata. Those who can comprehend its meanings are relieved of all karmic reactions in material existence. Arjuna</p>"
+    }
+},
+{
+    "model": "elephantblog.mediafilecontent",
+    "pk": 1,
+    "fields": {
+        "mediafile": 15,
+        "parent": 1,
+        "region": "main",
+        "ordering": 1,
+        "type": "left"
+    }
+},
+{
+    "model": "elephantblog.mediafilecontent",
+    "pk": 2,
+    "fields": {
+        "mediafile": 16,
+        "parent": 2,
+        "region": "main",
+        "ordering": 0,
+        "type": "left"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 1,
+    "fields": {
+        "name": "Python",
+        "slug": "python"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 2,
+    "fields": {
+        "name": "Linux",
+        "slug": "linux"
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 2,
+    "fields": {
+        "tag": 2,
+        "content_type": 31,
+        "object_id": 2
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 3,
+    "fields": {
+        "tag": 1,
+        "content_type": 31,
+        "object_id": 2
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 4,
+    "fields": {
+        "tag": 1,
+        "content_type": 31,
+        "object_id": 1
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 5,
+    "fields": {
+        "tag": 2,
+        "content_type": 31,
+        "object_id": 1
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$6rxIHkEOGvo4$8duV0qZnWBSQFbAFgDyQYkF5PB62HfPbK0rreIrNjaE=",
+        "last_login": "2017-07-18T02:29:40Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "Samus",
+        "last_name": "Aran",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-05-01T21:03:45Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "elephantblog.entry",
+    "pk": 1,
+    "fields": {
+        "is_active": true,
+        "is_featured": false,
+        "title": "Blog Entry #2",
+        "slug": "blog-entry-2",
+        "author": 1,
+        "published_on": "2017-05-10T21:53:14Z",
+        "last_changed": "2017-07-18T02:30:43.445Z",
+        "creation_date": null,
+        "modification_date": "2017-07-18T02:30:43.445Z",
+        "language": "en",
+        "translation_of": null,
+        "excerpt": "this is a test press, white label test press",
+        "meta_keywords": "",
+        "meta_description": "",
+        "_content_title": "",
+        "_page_title": "",
+        "pinging": 10,
+        "categories": [
+            3
+        ]
+    }
+},
+{
+    "model": "elephantblog.entry",
+    "pk": 2,
+    "fields": {
+        "is_active": true,
+        "is_featured": false,
+        "title": "Blog Entry #1",
+        "slug": "blog-entry-1",
+        "author": 1,
+        "published_on": "2017-05-10T22:03:49Z",
+        "last_changed": "2017-07-18T02:30:28.931Z",
+        "creation_date": null,
+        "modification_date": "2017-07-18T02:30:28.931Z",
+        "language": "en",
+        "translation_of": null,
+        "excerpt": "",
+        "meta_keywords": "",
+        "meta_description": "",
+        "_content_title": "",
+        "_page_title": "",
+        "pinging": 10,
+        "categories": [
+            3,
+            2
+        ]
+    }
+}
+]

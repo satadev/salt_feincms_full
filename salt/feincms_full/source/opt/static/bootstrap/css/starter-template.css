@@ -1,0 +1,19 @@
+body {
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 36px;
+}
+
+@media (min-width: 768px) {
+    #navbar {
+        float: right;
+    }
+}
+

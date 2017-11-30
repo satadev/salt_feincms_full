@@ -1,0 +1,60 @@
+appdirs
+backports.shutil-get-terminal-size
+boto
+celery
+Collectfast
+cryptography
+decorator
+Django
+django-contact-form
+django-debug-toolbar
+django-feedback-form2
+django-flatblocks
+django-guardian
+django-haystack
+django-loginas
+django-mathfilters
+django-mptt
+django-mptt-admin
+django-ses
+django-sitetree
+django-storages
+django-tinymce4
+enum34
+gunicorn
+ipython==5.4.1
+ipython-genutils
+librabbitmq
+packaging
+pathlib2
+pexpect
+pickleshare
+psycopg2
+ptyprocess
+Pygments
+pyparsing
+python-dateutil
+pytz
+requests
+setproctitle
+simplejson
+six
+traitlets
+#
+feincms
+feincms-cleanse
+# django-mptt
+Pillow
+# django-flatblocks
+# django-debug-toolbar
+form-designer
+django-email-obfuscator
+django-google-analytics
+django-request
+django-taggit
+django-taggit-labels
+easy-thumbnails
+Whoosh
+#
+-e git+https://github.com/satadev/feincms_gallery.git#egg=feincms-gallery
+-e git+https://github.com/satadev/feincms-elephantblog-taggit-labels.git#egg=feincms-elephantblog
