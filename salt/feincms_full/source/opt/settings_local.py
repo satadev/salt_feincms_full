@@ -1,5 +1,5 @@
 {% set project_name = salt['pillar.get']('project_name') %}
-
+{% set allowed_hosts = salt['pillar.get'](project_name + ':allowed_hosts') %}
 from settings import *
 
 
@@ -22,6 +22,7 @@ FIXTURE_DIRS = (
 #
 DEBUG = True
 INTERNAL_IPS = ['127.0.0.1',]
+ALLOWED_HOSTS = [{% for host in allowed_hosts %}{% if not loop.first %}, {% endif %}'{{ host }}'{% endfor %}]
 
 if DEBUG:
     INSTALLED_APPS += [
